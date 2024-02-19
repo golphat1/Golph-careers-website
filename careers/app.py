@@ -35,7 +35,7 @@ def hello_world():
                             company_name='Golph')
 
 @app.route("/api/jobs")
-deef list_jobs():
+def list_jobs():
     return jsonify(JOBS)
 
 if __name__== "__main__":
